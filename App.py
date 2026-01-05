@@ -17,7 +17,7 @@ st.markdown("Klasifikasi menggunakan **Support Vector Machine (SVM)** berdasarka
 @st.cache_data
 def load_data():
     # Pastikan nama file sesuai dengan yang ada di folder Anda
-    df = pd.read_csv("Daftar Data Perusahaan Menengah ke Atas dengan lokasinya Tahun 2024 (Nganjuk).csv - Perusahaan.csv")
+    df = pd.read_csv("Data_Perusahaan.csv - Perusahaan.csv")
     
     # Preprocessing sederhana: Menghitung persentase
     # Mengonversi kolom ke numerik untuk menghindari error
